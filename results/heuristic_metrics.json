@@ -1,0 +1,16 @@
+{
+  "total_reward_mean": -127939.82624216526,
+  "total_reward_std": 25102.1159776669,
+  "clearance_time_mean": 200.0,
+  "clearance_time_std": 0.0,
+  "total_distance_mean": 239620.0,
+  "total_distance_std": 2437.129459015257,
+  "high_pri_clear_step_mean": 200.0,
+  "high_pri_clear_step_std": 0.0,
+  "clearance_pct_mean": 1.3333333333333335,
+  "clearance_pct_std": 1.2472191289246473,
+  "segments_cleared_mean": 2.4,
+  "segments_cleared_std": 2.244994432064365,
+  "segments_total_mean": 180.0,
+  "segments_total_std": 0.0
+}

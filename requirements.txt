@@ -1,0 +1,37 @@
+# SmartSnow — Buffalo Snow Plow RL Project
+# CSE 4/546 Reinforcement Learning, Spring 2026
+# ──────────────────────────────────────────────
+# Install with:  pip install -r requirements.txt
+
+# ── Core Scientific Stack ─────────────────────
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+networkx>=3.1
+
+# ── Reinforcement Learning Environment ────────
+gymnasium>=0.29.0
+
+# ── RL Training (Stable-Baselines3) ───────────
+stable-baselines3>=2.2.0
+sb3-contrib>=2.2.0          # MaskablePPO action masking
+
+# ── Road Network (Real OSMnx data — Phase 2) ──
+osmnx>=1.9.0
+shapely>=2.0.0
+
+# ── Config & Utilities ────────────────────────
+pyyaml>=6.0
+tqdm>=4.65.0
+
+# ── Visualization & Mapping ───────────────────
+folium>=0.14.0              # Interactive HTML map of policy rollouts
+seaborn>=0.12.0
+
+# ── Testing ───────────────────────────────────
+pytest>=7.4.0
+
+# ── Notebook Support ──────────────────────────
+jupyter>=1.0.0
+nbconvert>=7.0.0
+ipykernel>=6.0.0
